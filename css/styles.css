@@ -1,54 +1,80 @@
 body {
-    background-color: powderblue;
+  background-color: powderblue;
+  padding-bottom: 50px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 75px;
   text-align: center;
   margin-top: 30px;
   padding-top: 50px;
 }
 
-h3 {
-  font-size: 15px;
+h2 {
+  font-size: 20px;
+  text-align: center;
   color: #777777;
-  padding-bottom: 40px;
 }
 
-p {
-  text-align: center;
-  margin-bottom: 100px;
+h3 {
+  font-size: 30px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding: 20px;
+}
+
+p {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 img {
   height: 100%;
 }
 
+footer {
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  width: 100%;
+  background-color: #A9A9A9;
+}
+
+.footer-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 50%;
+}
+
 .bg-primary {
-  background-color: #7DD3D8 !important;
+  background-color: #0000ff !important;
 }
 
 .navbar-brand {
   height: 50px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: #ffffff;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #333;
-}
-
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-  color: #333;
+  color: #ffffff;
 }
 
-.navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
+.navbar-nav>li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.center {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
