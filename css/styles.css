@@ -14,6 +14,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   color: #777777;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -41,20 +42,6 @@ p {
 
 img {
   height: 100%;
-}
-
-footer {
-  position: fixed;
-  height: 70px;
-  bottom: 0;
-  width: 100%;
-  background-color: #A9A9A9;
-}
-
-.footer-content {
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 50%;
 }
 
 .bg-primary {
@@ -102,6 +89,15 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+
+.image {
+  background-color: #eee;
+  display: block;
+  margin: 0 0 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .pdf {
